@@ -1,3 +1,8 @@
+<!--
+SPDX-FileCopyrightText: 2023 Davidson <twister@davidson.fr>
+SPDX-License-Identifier: CC-BY-NC-SA-4.0
+-->
+
 # OpenDataBDD
 
 ## About
@@ -51,3 +56,4 @@ We use docker & docker-compose so you need to install it
 	1. Re-create
 		* `sudo rm -rf ./mysql_data`
     	* `docker-compose up -d --build`
+

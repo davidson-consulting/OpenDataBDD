@@ -1,5 +1,8 @@
 #! /bin/bash
 
+# SPDX-FileCopyrightText: 2023 Davidson <twister@davidson.fr>
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 WDIR=$( dirname -- "$0" )
 
 write_import_Line() {

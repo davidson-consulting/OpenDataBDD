@@ -1,3 +1,6 @@
+-- SPDX-FileCopyrightText: 2023 Davidson <twister@davidson.fr>
+-- SPDX-License-Identifier: GPL-3.0-or-later
+
 DROP TABLE IF EXISTS mesures_originales;
 CREATE TABLE mesures_originales (
 	date_de_debut TIMESTAMP NULL DEFAULT NULL,  -- Date de début: 2022/01/01 00:00:00;
