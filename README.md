@@ -47,7 +47,7 @@ We use docker & docker-compose so you need to install it
 	1. First start
 		* `cd mysql/polluants_1m/`
     	* `docker-compose up --build`
-		* *You can explore database:* `mysql -u odtest -p -P 13306 -h 127.0.0.1 polluants`
+		* *You can explore database:* `mysql -u odtest -p -P 3306 -h 127.0.0.1 polluants`
 		* *Login in container:* `docker exec -it opendatabdd-polluants-1m /bin/bash`
 	1. Normal start
     	* `docker-compose up`
