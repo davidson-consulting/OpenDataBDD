@@ -5,6 +5,8 @@ SPDX-License-Identifier: CC-BY-NC-SA-4.0
 
 # OpenDataBDD
 
+[![REUSE status](https://api.reuse.software/badge/github.com/fsfe/reuse-tool)](https://api.reuse.software/info/github.com/fsfe/reuse-tool)
+
 ## About
 
 The goal of this project is to provide a simple dataset for testing eco-rules and other practices.
