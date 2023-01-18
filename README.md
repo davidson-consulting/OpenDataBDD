@@ -57,3 +57,13 @@ We use docker & docker-compose so you need to install it
 		* `sudo rm -rf ./mysql_data`
     	* `docker-compose up -d --build`
 
+## License
+
+This work is licensed under multiple licences. Because keeping this section
+up-to-date is challenging, here is a brief summary:
+
+- All original source code is licensed under GPL-3.0-or-later.
+- All documentation is licensed under CC-BY-SA-4.0.
+- Some configuration and data files are licensed under CC0-1.0.
+
+For more accurate information, check the individual files.
