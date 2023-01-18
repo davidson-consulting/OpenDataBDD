@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+
+  mysql:
+    image: mysql:5.7
+    container_name: opendatabdd-polluants-1m
+    environment:
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+    network_mode: host
+    volumes:
+      - ../../cache:/tmp/cache:ro
+      - ./mysql_data:/var/lib/mysql:rw
+      - ../sql/create_table.sql:/docker-entrypoint-initdb.d/1.sql:ro
+      - ../sql/create_indexes.sql:/docker-entrypoint-initdb.d/2.sql:ro
+      - ../sql/import_months_1.sql:/docker-entrypoint-initdb.d/3.sql:ro
